@@ -1,0 +1,51 @@
+.container{
+    margin:20px;
+    background-color:cornsilk;
+    border:20px;
+    border-color:green;
+    padding: 20px;
+      
+}
+
+.container-bio{
+    background-color: white;
+    margin:100px;
+}
+
+    
+
+
+.body{
+    background-image: url("https://webdev.imgix.net/backdrop-filter/hero.jpg");
+    background-color: black;
+}
+
+h1 {
+    
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+    background-color:teal;
+    margin:200px;
+}
+
+img{
+    
+    padding:5px;
+    height: 400px;
+    width: 300px;
+     
+}
+
+
+/* Portfolio*/
+.container-portfolio{
+    float: left;
+    width: 100%;
+    height: auto;
+}
+        /* Bottom right text */
+.bottom-right {
+    position: absolute;
+    bottom: 8px;
+    right: 16px;
+  }
