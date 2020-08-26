@@ -1,67 +1,101 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>RG | Portfolio</title>
     <!--Style Sheet-->
     <link rel="stylesheet" type="text/css" href="mystyle.css">
+    <script type="text/javascript" src="https://platform.linkedin.com/badges/js/profile.js" async defer></script>
 
-     <!-- Bootstrap -->
-      
-     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
 
-     <!--Nav Bar-->
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <!-- Bootstrap -->
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+
+    <!--Nav Bar-->
+    <nav class="navbar fixed-bottom navbar-expand-lg navbar-light bg-light">
         <a class="navbar-brand" href="#">Robert Graham</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
+      <span class="navbar-toggler-icon"></span>
+    </button>
         <div class="collapse navbar-collapse" id="navbarNavDropdown">
-          <ul class="navbar-nav">
-            <li class="nav-item active">
-              <a class="nav-link" href="index.html">About <span class="sr-only">(current)</span></a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="portfolio.html">Portfolio</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="contact.html">Contact</a>
-            </li>
-          </ul>
+            <ul class="navbar-nav">
+                <li class="nav-item active">
+                    <a class="nav-link" href="about.html">About <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="portfolio.html">Projects/Work</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="contact.html">Contact</a>
+                </li>
+            </ul>
         </div>
-      </nav>
+    </nav>
 </head>
 
-<!-- Main section-->
-<body class="body">
-    <h1>Portfolio</h1>
-    
-    <div class="container">
-        <div class="row"></div>
 
-        </div>
-    </div>
+<!-- Main section-->
+
+<body class="portfolioBody">
     <div class="container">
         <div class="row">
-          <div class="col-sm-4"> 
-            <iframe width="300" height="300" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/800941276&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe><div style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;"><a href="https://soundcloud.com/los-muertos-694375792" title="Los Muertos" target="_blank" style="color: #cccccc; text-decoration: none;">Los Muertos</a> · <a href="https://soundcloud.com/los-muertos-694375792/los-muertos-into-the-darkness" title="Into The Darkness" target="_blank" style="color: #cccccc; text-decoration: none;">Into The Darkness</a></div>
-            <span style="font-weight:bold">Local San Diego Music</span>
-          </div>
-          <div class="col-sm-4">
-            <a href="https://www.instagram.com/rob_graeme/?hl=en">
-                <img alt="Qries" src="https://scontent-lax3-1.cdninstagram.com/v/t51.2885-19/s320x320/83688927_525613918077657_169412502499622912_n.jpg?_nc_ht=scontent-lax3-1.cdninstagram.com&_nc_ohc=5-4JAL-rLkYAX_vVzzt&oh=f33d79a17c59915825a5d1dd6d5dc113&oe=5F350165">
-                <div class="bottom-right"><span style="color:white;font-weight:bold"></spanstyle> Instagram Profile</span></div>
-          </div>
-          <div class="col-sm-4">
-            <a href="https://www.linkedin.com/in/robert-graham-ba1118b3/">
-                <img alt="Qries" src="https://images.pixieset.com/82014721/f59f026600235f256a11ac7e43665bcd-xlarge.JPG">
-                <div class="bottom-right"><span style="color:white;font-weight:bold"></spanstyle>Linked-In Profile</span></div>
-          </div>
-        </div> 
-            
-    </div>
-    
-    
+            <div class="col-sm-4 float-left">
+                <div class="card">
+                    <img class="card-img-top cardImage" src="data:image/png;base64,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"
+                        alt="Git Hub logo">
+                    <div class="card-body">
+                        <h5 class="card-title">GitHub</h5>
+                        <p class="card-text">Take a look at my GitHub profile and repositories</p>
+                        <a href="https://github.com/Robmgraham" class="btn btn-primary">GitHub</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-sm-4 float-left">
+                <div class="card">
+                    <img class="card-img-top cardImage" src="https://user-images.githubusercontent.com/67080837/89377133-0a10a680-d6a6-11ea-85de-604d357270c5.png" alt="Photo of Daily Planner APP">
+                    <div class="card-body">
+                        <h5 class="card-title">Daily Planner app</h5>
+                        <p class="card-text"> A daily planner to help you prioritize your day</p>
+                        <a href="https://robmgraham.github.io/homework-week-5-daily-calander/" class="btn btn-primary">DAILY
+              PLANNER</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-4 float-left">
+                <div class="card">
+                    <img class="card-img-top cardImage" src="https://user-images.githubusercontent.com/67080837/91235519-8bc68380-e6ea-11ea-9732-59f015ae6932.png">
+                    <div class="card-body">
+                        <h5 class="card-title">Job Finder app</h5>
+                        <p class="card-text"> A Job Finder specifically for Javascript, HTML, CSS, and whatever</p>
+                        <a href="https://robmgraham.github.io/homework-week-5-daily-calander/" class="btn btn-primary">Job Finder</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="container">
+
+                <div class="row mt-2">
+                    <div class="col-sm-4 float-left">
+                        <div class="card ">
+                            <img class="card-img-top cardImage" src="./Images/Untitled.png">
+                            <div class="card-body">
+                                <h5 class="card-title">My Resume</h5>
+                                <p class="card-text"> Click the button below to see my Resume</p>
+                                <a href="./assets/Resume-Robert-Graham (2).pdf" class="btn btn-primary">Resume</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-4 float-left">
+                        <div class="LI-profile-badge float-right" data-version="v1" data-size="large" data-locale="en_US" data-type="vertical" data-theme="light" data-vanity="robert-graham-ba1118b3"><a class="LI-simple-link" href='https://www.linkedin.com/in/robert-graham-ba1118b3?trk=profile-badge'>Robert
+                Graham</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
 </body>
+
 </html>

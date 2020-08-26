@@ -1,2 +1,4 @@
-# homework-week-2
-Bootstrap homework for week 2
+# Read Me
+ My Portfolio
+
+ used TinyURL.com for shortening URL for github image
