@@ -1,5 +1,5 @@
 .aboutBody {
-    background-image: url("/Images/coastal-shot.jpg");
+    background-image: url("../Images/Coastal-shot.jpg");
     background-repeat: no-repeat;
     background-position: center;
 }
@@ -26,8 +26,14 @@
     background-attachment: fixed;
 }
 
+.card {
+    width: 300px;
+    height: 400px;
+    margin-right: 10px;
+}
+
 .contactBody {
-    background-image: url("/Images/Cabrillo-Bridge-Downtown-SD.jpg");
+    background-image: url("../Images/Cabrillo-Bridge-Downtown-SD.jpg");
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: 100%;
