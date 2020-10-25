@@ -1,12 +1,9 @@
 .aboutBody {
-    background-image: url("../Images/glasgow.jpg");
+    background-image: url("../Images/Cabrillo-Bridge-Downtown-SD.jpg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: 100%;
 }
-
-
-/* background-image: url("../Images/Cabrillo-Bridge-Downtown-SD.jpg"); */
 
 .mePhoto {
     height: 250px;
