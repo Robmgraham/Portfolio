@@ -33,19 +33,7 @@
     margin-right: 10px;
 }
 
-.contactBody {
-    background-image: url("../Images/Cabrillo-Bridge-Downtown-SD.jpg");
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: 100%;
-}
 
-h1 {
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    text-align: center;
-    background-color: skyblue;
-    margin: 200px;
-}
 
 .cardImage {
     height: fit-content;
@@ -61,9 +49,82 @@ h1 {
 
 
 /* Contact me Page */
-
-.speech-bubble {
-    position: relative;
-    background: rgba(255, 255, 255, 0.603);
-    border-radius: .4em;
+.contactBody {
+    background-image: url("../Images/Cabrillo-Bridge-Downtown-SD.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100%;
 }
+
+h1 {
+    font-weight: lighter;
+    font-size: 80px;
+    text-align: center;
+    padding-top: 50px;
+    margin-bottom: 0;
+
+}
+
+.social-p {
+    color: white;
+    text-align: center;
+    font-family: Source Sans Pro;
+    font-weight: lighter;
+    font-size: 20px;
+    margin-top: 0;
+
+}
+
+.media {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-53%, -50%);
+}
+
+i {
+    
+    text-decoration: inherit;
+    color:white;
+
+}
+i:hover {
+    color:yellow;
+    transition: 1.5s;
+}
+
+.contact-li {
+    list-style: none;
+    margin:30px 30px;
+    display: inline-block;
+    font-size: 30px;
+    padding: 20px 20px;
+    color: white;
+    border:1px solid white;
+    border-radius: 50%;
+    transition: 0.5s;
+    cursor: pointer;
+
+}
+
+.contact-li:hover {
+    color:#292929;
+    border:1px solid black;
+    transition: 1.5s;
+
+}
+
+.hide {
+    display: none;
+  }
+  
+  .myDIV:hover + .hide {
+    display: block;
+    color: red;
+  }
+
+  .email {
+      font-weight: 10px;
+      font-size:15px;
+      padding: -10;
+  }
